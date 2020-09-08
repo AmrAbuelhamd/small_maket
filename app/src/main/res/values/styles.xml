@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#85919E</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="numiricButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textSize">@dimen/numberButtonsTextSize</item>
+        <item name="backgroundTint">@color/greyDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="operationButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">@dimen/operationButtonsTextSize</item>
+        <item name="backgroundTint">@color/greyNotDark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+</resources>
